@@ -121,8 +121,13 @@
               "devServerTarget": "hotjar-test-two:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "hotjar-test-two"
 }
